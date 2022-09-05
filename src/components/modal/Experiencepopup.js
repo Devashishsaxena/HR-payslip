@@ -89,7 +89,7 @@ const Experiencepopup = ({ closeModal }) => {
                             <div className="col-12 mt-0 d-flex justify-content-center">
                                 <div className="mt-0 pt-0">
                                     <form onSubmit={handleSubmit}>
-                                        <div className="container position-relative  ">
+                                        <div className="container position-relative">
                                             <div className="row">
                                                 <div className='d-flex justify-content-between align-items-center'>
                                                     <p className="b3medium mt-2 mb-2">Experience Information</p>
@@ -152,8 +152,6 @@ const Experiencepopup = ({ closeModal }) => {
                                                             type="text"
                                                             class="form-control ps-1"
                                                             name="employeeID"
-                                                            value={formValues.employeeID}
-                                                            onChange={handleChange}
                                                             placeholder="Job Position"
                                                             aria-label="Username"
                                                             aria-describedby="basic-addon1"
@@ -220,8 +218,6 @@ const Experiencepopup = ({ closeModal }) => {
                                                             type="text"
                                                             class="form-control ps-1"
                                                             name="fullName"
-                                                            value={formValues.fullName}
-                                                            onChange={handleChange}
                                                             placeholder="Company Name"
                                                             aria-label="Username"
                                                             aria-describedby="basic-addon1"
@@ -240,8 +236,6 @@ const Experiencepopup = ({ closeModal }) => {
                                                             type="text"
                                                             class="form-control ps-1"
                                                             name="employeeID"
-                                                            value={formValues.employeeID}
-                                                            onChange={handleChange}
                                                             placeholder="Location"
                                                             aria-label="Username"
                                                             aria-describedby="basic-addon1"
@@ -262,8 +256,6 @@ const Experiencepopup = ({ closeModal }) => {
                                                             type="text"
                                                             class="form-control ps-1"
                                                             name="employeeID"
-                                                            value={formValues.employeeID}
-                                                            onChange={handleChange}
                                                             placeholder="Job Position"
                                                             aria-label="Username"
                                                             aria-describedby="basic-addon1"
