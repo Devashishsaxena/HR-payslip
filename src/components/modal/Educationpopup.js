@@ -3,7 +3,7 @@ import React, { useState, useEffect } from "react";
 import { Modal } from "react-bootstrap";
 import { MdCancel } from "react-icons/md";
 import { AiOutlineDelete } from 'react-icons/ai';
- import { AiOutlinePlus } from 'react-icons/ai';
+import { AiOutlinePlus } from 'react-icons/ai';
 const Educationpopup = ({ closeModal }) => {
     const initialValues = {
         fullName: "",
@@ -120,7 +120,7 @@ const Educationpopup = ({ closeModal }) => {
                                                 </div>
                                                 <div className="col m-1 mt-0">
                                                     <lable className="form-lable small mb-1">
-                                                    Subject<span className="text-danger">*</span>
+                                                        Subject<span className="text-danger">*</span>
                                                     </lable>
                                                     <div class="input-group mb-1">
                                                         <input
@@ -174,8 +174,8 @@ const Educationpopup = ({ closeModal }) => {
                                                     </lable>
                                                     <div class="input-group mb-1">
                                                         <select class='form-select'>
-                                                                 <option selected>Degree</option>
-                                                             </select>
+                                                            <option selected>Degree</option>
+                                                        </select>
                                                     </div>
                                                     <span className="text-danger">
                                                         {formErrors.birthday}
@@ -210,7 +210,7 @@ const Educationpopup = ({ closeModal }) => {
                             <div className="mt-0"></div>
                             <div className="col-12 mt-0 d-flex justify-content-center">
                                 <div className="mt-0 pt-0">
-                                    <form onSubmit={handleSubmit} className="">
+                                    <form onSubmit={handleSubmit}>
                                         <div className="container position-relative  ">
                                             <div className="row">
                                                 <div className='d-flex justify-content-between align-items-center'>
@@ -332,9 +332,9 @@ const Educationpopup = ({ closeModal }) => {
                 <div className="container mt-1 mb-1 pt-3 pb-2 bg-white sticky-bottom modal-content-footer">
                     <div className="row">
                         <div className="col text-center ">
-                            <button style={{backgroundColor: '#DDDDDD' }} className='btn btn rounded-pill px-5 text-secondary text-center mx-4 mt-2 c2book '>
-                        <AiOutlinePlus style={{ marginBottom: '4px' }} /> Add More
-                    </button>
+                            <button style={{ backgroundColor: '#DDDDDD' }} className='btn btn rounded-pill px-5 text-secondary text-center mx-4 mt-2 c2book '>
+                                <AiOutlinePlus style={{ marginBottom: '4px' }} /> Add More
+                            </button>
                             <button
                                 type="submit"
                                 class="btn rounded-pill px-5 text-white"

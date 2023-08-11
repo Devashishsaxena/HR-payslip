@@ -88,7 +88,10 @@ export default function Profile() {
                                 <div className="card-body  row">
                                     <div className='d-flex justify-content-between'>
                                         <h5 className="card-title git add . pb-0 pt-0 h2bold"><b>John Doe</b></h5>
-                                        <span  ><button onClick={() => setClick(true)} className='penbtn  md:mx-4 md:ms-5 sm:ms-5'><FaPen className='pen'></FaPen></button></span>
+                                        <span  >
+                                            <button onClick={() => setClick(true)} className='penbtn  md:mx-4 md:ms-5 sm:ms-5'><FaPen className='pen'></FaPen>
+                                            </button>
+                                        </span>
                                         {
                                             click && <ProfileInfo closeModal={setClick} />
                                         }
